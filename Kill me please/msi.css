@@ -1,0 +1,185 @@
+
+ul{
+    list-style-type: none;
+   
+    Padding: 10px;
+}
+li{
+    display:inline;
+    font-size: 19.2px;
+    font-family: Arial;
+}
+
+li a {
+    padding: 34px 10px;
+    margin: 0px;
+    top: 0px;
+    text-decoration: none;
+    color:black;
+}
+
+.link {
+    text-decoration: none;
+    color:black;
+}
+
+.icon{
+    position: absolute;
+    top: 19px;
+    right: 20px;
+    display:inline;
+    padding:1px 0px;
+}
+
+.iconspace{
+    padding:10px;
+    top: 0px;
+    right: 0px;
+}
+
+.productA{
+    background-color: #222222;
+}
+    
+
+.row{
+    box-sizing: border-box;
+    padding: 0px 0px;
+}
+
+.title1{
+    position:absolute;
+    color:white;
+    font-size:25px;
+    font-family: arial;
+    bottom:50px;
+    left:260px;
+    text-align: center;
+}
+
+.desc1{
+    position:absolute;
+    color:white;
+    font-size:20px;
+    font-family: arial;
+    bottom:35px;
+    left:230px;
+    text-align: center;
+}
+
+.title2{
+    position:absolute;
+    color:white;
+    font-size:25px;
+    font-family: arial;
+    bottom:50px;
+    left:840px;
+    text-align: center;
+}
+
+.desc2{
+    position:absolute;
+    color:white;
+    font-size:20px;
+    font-family: arial;
+    bottom:35px;
+    left:990px;
+    text-align: center;
+}
+
+.darkimage{
+    filter: brightness(70%)
+}
+
+.darkimage:hover{
+    filter: brightness(100%)
+}
+
+.brightimage{
+    color:black
+
+}
+
+.brightimage:hover{
+    filter: brightness();
+    color:white;
+}
+
+.blur:hover{
+    background: none;
+    opacity: 1;
+}
+
+.centercenter1{
+    position:absolute;
+    left:280px; 
+    top:50px;
+}
+
+.blur{
+    height: 100%;
+    background: white;
+    overflow: hidden;
+    opacity: 0.4;
+}
+
+
+
+.center1{
+    position: absolute;
+    top: 218%;
+    left: 8%;
+    font-family: arial;
+    font-size: 1.5em;
+    color: black;
+}
+
+.center2{
+    position: absolute;
+    top: 218%;
+    left: 29%;
+    font-family: arial;
+    font-size: 1.5em;
+    color: black;
+}
+
+.center3{
+    position: absolute;
+    top: 218%;
+    left: 58%;
+    font-family: arial;
+    font-size: 1.5em;
+    color: black;
+}
+
+.center4{
+    position: absolute;
+    top: 218%;
+    left: 81%;
+    font-family: arial;
+    font-size: 1.5em;
+    color: black;
+}
+
+
+table {
+    position: relative;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   font-family: Helvetica;
+
+   color: #666666;
+   text-align: left;
+}
+
+th, td{
+   padding-top: 18px;
+}
+
+footer{
+    padding-top:20px;
+    color: #666666;
+    font-size:10px ;
+    font-family:Arial, Helvetica, sans-serif;
+}

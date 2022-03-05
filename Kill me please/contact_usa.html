@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+li{
+    display:inline;
+    font-size: 19.2px;
+    font-family: Arial;
+}
+
+li a {
+    padding: 34px 10px;
+    margin: 0px;
+    top: 0px;
+    text-decoration: none;
+    color:white;
+}
+
+body{
+    background-color: #121212;
+}
+
+div{
+  border-radius: 5px;
+  background-color: #212121 ;
+  padding: 20px;
+}
+
+input[type=text], select {
+    color: #ccc;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  background-color: #3A3B3C;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=value], select {
+  color:#ccc;
+}
+
+input[type=password], select {
+color: #ccc;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  background-color: #3A3B3C;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  color: #ccc;
+  width: 100%;
+  background-color: #332940;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #1f1a24;
+}
+
+input[type=submit]:hover {
+  background-color: #1f1a24;
+}
+label{
+    color:#ccc;
+}
+
+::placeholder{
+    color:#ccc;
+}
+
+textarea {
+  color: #ccc;
+  width: 100%;
+  height: 80px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #3A3B3C;
+  font-size: 16px;
+  resize: none;
+
+
+}
+
+table {
+    position: relative;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   font-family: Helvetica;
+
+   color: #666666;
+   text-align: left;
+}
+
+.judul{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color:white;
+}
+</style>
+<body style="color: #ccc;">
+  
+  <ul style="padding: 20px;">
+    <li style="padding: 0px 10px 20px 0px"><a href="index.html" target="_blank" >MSI</a></li>
+    <li style="padding: 0px 10px 20px 0px"><a href="biodata.html" target="_blank">ABOUT ME</a></li>
+    <li style="padding: 0px 10px 20px 0px"><a href="Gallery.html" target="_blank">GALLERY</a></li>
+    <li style="padding: 0px 10px 20px 0px"><a href="Prologue.html" target="_blank">PROLOGUE</a></li>
+    </ul>
+
+    <p class="judul">
+        Please fill this form to let us know about yourself
+    </p>
+<div>
+
+    <label for="fname">Full Name</label>
+    <input type="text" id="fname" name="fullname" placeholder="Your name..">
+
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="yourname@example.site">
+
+    <label for="username">Username</label>
+    <input type="text" id="username" name="username" placeholder="Your username">
+
+    <label for="Password">Password</label>
+    <input type="password" id="password" name="password" placeholder="password">
+
+    <label for="Sex">Jenis kelamin</label> <br>
+    <input type="radio" name="sex" placeholder='male' style="color:white;"/>laki-laki<br>
+    <input type="radio" name="sex" placeholder='female'/>Perempuan <br>
+
+
+
+    <label for="country">Agama</label>
+    <select id="Religion" name="Religion">
+      <option value="Christian">Christian</option>
+      <option value="Islam">Islam</option>
+      <option value="Hindu">Hindu</option>
+      <option value="Buddha">Buddha</option>
+      <option value="Konghucu">Konghucu</option>
+      <option value="other">Other</option>
+      <option value="neither">Don't want to tell</option>
+    </select>
+  
+    <label for="adress">Alamat</label>
+    <textarea></textarea>
+
+    <label for="Hobby">Hobby :</label>
+    <input type="checkbox" id="bernyanyi">Bernyanyi
+    <input type="checkbox" id="bernyanyi">Menari
+    <input type="checkbox" id="bernyanyi">Bermain musik
+    <input type="checkbox" id="bernyanyi">Bermain video gim 
+
+    <input type="submit" value="Submit">
+
+    
+  </form>
+</div>
+<div>
+  <table style="padding-top:50px; width:100%;" > 
+   <tr>
+       <th style=" color:black; padding-right: 165px ;"> COMMUNITY</th>
+       <th style=" color:black; padding-right: 165px ;"> SUPPORT</th>
+       <th style=" color:black; padding-right: 165px ;"> NEWS</th>
+       <th style=" color:black; padding-right: 165px ;"> MEDIA</th>
+       <th style=" color:black; padding-right:60px;"> ABOUT US</th>
+   </tr>
+   <tr>
+       <td>MSI Reward Program</td>
+       <td>Downloads</td>
+       <td>News</td>
+       <td>Brochure</td>
+       <td>About MSI</td>
+   </tr>
+   <tr>
+       <td>Forums</td>
+       <td>Member Center</td>
+       <td>Awards</td>
+       <td>Wallpaper</td>
+       <td>Mission and vision</td>
+   </tr>
+   <tr>
+       <td>Social Media</td>
+       <td>Online Customer Service</td>
+       <td>RSS</td>
+       <td>MSI Apps</td>
+       <td>Brand Story</td>
+   </tr>
+   <tr>
+       <td>Videos</td>
+       <td>Service Locations</td>
+       <td></td>
+       <td></td>
+       <td>Investor Information</td>
+   </tr>
+   <tr>
+       <td>Gaming Teams</td>
+       <td>Warranty</td>
+       <td></td>
+       <td></td>
+       <td>Innovation DNA</td>
+   </tr>
+   <tr>
+       <td>Blogs</td>
+       <td></td>
+       <td></td>
+       <td></td>
+       <td>CSR</td>
+   </tr>
+   <tr>
+       <td style="padding-bottom: 20px;">Customer Stories</td>
+   </tr>
+   </table>
+</div>
+</body>
+</html>
